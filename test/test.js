@@ -17,6 +17,16 @@ describe('Indgiex Route', function() {
   });
 
   describe("Addition Route", function() {
+    it("returns answer for valid numbers", function(done) {
+      chai.request(app)
+        .get('/add/1/2')
+        .end(function(err, res) {
+          expect(err).to.be.null;
+          expect(res).to.have.status(200);
+          expect(res.text).be.equal("3");
+          done();
+        });
+    });
 
   });
 
