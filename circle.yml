@@ -13,4 +13,9 @@ test:
     - npm test
   post:
     - echo "POST TESTING POINTLESS ECHO"
-    
+
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: delicat-monsieur-24987
