@@ -1,7 +1,0 @@
-machine:
-  node:
-    version: 5.4.1
-
-dependencies:
-  pre:
-    - npm install mocha --global # so tests run
