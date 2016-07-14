@@ -19,4 +19,17 @@ describe('Indgiex Route', function() {
   describe("Addition Route", function() {
 
   });
+
+  describe("Sub Route", function() {
+
+  });
+
+  describe("Multiplication Route", function() {
+
+  });
+
+  describe("Division Route", function() {
+
+  });
+
 });
